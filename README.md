@@ -30,7 +30,7 @@ Publish the website in the given URL.
 ## PROGRAM:
 
 about.html
-
+```
 <html>
     <head>
         <link href="admin.css" rel="stylesheet"/>
@@ -69,7 +69,8 @@ about.html
         </div>
     </body>
 </html>
-
+```
+```
 
 booking.html
 <html>
@@ -183,9 +184,11 @@ bro.html
 </body>
 </html>
 
-
+```
+```
 
 content.html
+
 <html>
     <head>
         <style>
@@ -339,7 +342,10 @@ menu.html
         </body>
 </html>
 
+```
+```
 rest.css
+
  body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -415,6 +421,7 @@ rest.css
             color: white;
         }
 
+```
 
 ## OUTPUT:
 
