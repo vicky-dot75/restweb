@@ -28,168 +28,8 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM:
-bro.html
 
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Italian Restaurant</title>
-    <link href="rest.css" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <div class="logo">
-            <img src="logo.png" alt="Logo">
-            <h1>Sapori Di Italia</h1>
-        </div>
-        <nav>
-            <a href="booking.html">Book now</a>
-            <a href="menu.html">Menu</a>
-            <a href="About.html">Admin</a>
-            <a href="Contact.html"> Contact us</a>
-
-        </nav>
-    </header>
-
-    <div class="hero">
-        <h1>40% Off This Weekend</h1>
-        <p>Where Taste Meets Luxury.</p>
-    </div>
-
-    <div class="cards">
-        <div class="card">
-            <img src="f1.jpg" alt="Our New Menu">
-            <h2>Our New Menu</h2>
-        </div>
-        <div class="card">
-            <img src="table.jpg" alt="Book a Table">
-            <h2>Book a Table</h2>\
-        </div>
-        <div class="card">
-            <img src="time.png" alt="Opening Hours">
-            <h2>Opening Hours</h2>
-        </div>
-    </div>
-
-    <footer>
-        <p> Designed and developed by yogesh</p>
-        <p>© 2025 Sapori Di Italia. All rights reserved.</p>
-    </footer>
-</body>
-
-admin.css
-
-</html>
-
-
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-        }
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px;
-            background-color :white;
-            color: rgb(6, 169, 34);
-        }
-        header .logo {
-            display: flex;
-            padding-left: 40%;
-            align-items: center;
-        }
-        header .logo img {
-            height: 50px;
-            margin-right: 10px;
-        }
-        nav a {
-            margin: 0 10px;
-            color: rgb(13, 213, 53);
-            text-decoration: none;
-            font-weight: bold;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        .hero {
-            background: url('back.jpg') center/cover no-repeat;
-            color: white;
-            text-align: center;
-            padding: 100px 20px;
-            position: relative;
-        }
-        .hero h1 {
-            font-size: 3rem;
-            margin-bottom: 10px;
-        }
-        .hero p {
-            font-size: 1.2rem;
-        }
-        .cards {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            padding: 20px;
-        }
-        .card {
-            background-color: #fdf4e3;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            width: 30%;
-            text-align: center;
-            padding: 20px;
-        }
-        .card img {
-            width: 100%;
-            border-radius: 8px;
-        }
-        .card h2 {
-            margin-top: 15px;
-            font-size: 1.5rem;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #333;
-            color: white;
-        }
-
-
-        <html>
-    <head>
-        <style>
-            .one{
-                text-align: center;
-                font-family: 'Times New Roman', Times, serif;
-            }
-            .image
-            {
-                text-align: center;
-            }
-    </style>
-    </head>
-
-    <body>
-        <div class="image">
-    
-            <img src="logo.png" alt="Logo">
-        
-        </div>
-        <div class="one">
-        <h1 >Contact Us</h1>
-        <h2> Address: ITC Grand Chola, 63, Anna Salai, Guindy, Chennai, Tamil Nadu 600032</h2>
-        <h2> Phone:9876543210</h2>
-        <h2>Email :saporidiitalaia78@gmail.com</h2>
-        </div>
-    </body>
-</html>
-
-admin.html
-
+about.html
 
 <html>
     <head>
@@ -202,27 +42,27 @@ admin.html
         <div class="chefs">
             <div class="layout">
                 <div>
-                    <img src="white.jpg"/>
+                    <img src="download (9).jpg"/>
                     <h4><b>Head-Chef: Walter White</b></h4>
                 </div>
                 <div>
-                    <img src="jesse.jpg"/>
+                    <img src="Shraddha Kapoor's beautiful face pic.jpg"/>
                     <h4><b>Sous Chef: Jesse Pinkman</b></h4>
                 </div>
                 <div>
-                    <img src="thomas.jpg">
+                    <img src="download (6).jpg">
                     <h4><b>Manager: Thomas Shelby</b></h4>
                 </div>
                 <div>
-                    <img src="cook.jpg">
+                    <img src="download (7).jpg">
                     <h4>Line cook: Ella</h4>
                 </div>
                 <div>
-                    <img src="john.jpg">
+                    <img src="download (8).jpg">
                     <h4>Waiter: John Cena</h4>
                 </div>
                 <div>
-                    <img src="dwayne.jpg"/>
+                    <img src="Chris Hemsworth.jpg"/>
                     <h4>Steward: Dwayne Johnson</h4>
                 </div>
             </div>
@@ -230,6 +70,8 @@ admin.html
     </body>
 </html>
 
+
+booking.html
 <html>
     <head>
         <title> Reservation</title>
@@ -291,6 +133,88 @@ admin.html
         </body>
 </html>
 
+bro.html
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Italian Restaurant</title>
+    <link href="rest.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+            <h1>Sapori Di Italia</h1>
+        </div>
+        <nav>
+            <a href="booking.html">Book now</a>
+            <a href="menu.html">Menu</a>
+            <a href="About.html">Admin</a>
+            <a href="Contact.html"> Contact us</a>
+
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>40% Off This Weekend</h1>
+        <p>Where Taste Meets Luxury.</p>
+    </div>
+
+    <div class="cards">
+        <div class="card">
+            <img src="Screenshot 2025-12-26 133608.png" alt="Our New Menu">
+            <h2>Our New Menu</h2>
+        </div>
+        <div class="card">
+            <img src="Dine Restaurant Food - Free photo on Pixabay.jpg"alt="Book a Table">
+            <h2>Book a Table</h2>
+        </div>
+        <div class="card">
+            <img src="Ilustração do horário de funcionamento da empresa com foto _ Vetor Grátis.jpg" alt="Opening Hours">
+            <h2>Opening Hours</h2>
+        </div>
+    </div>
+
+    <footer>
+        <p> Designed and developed by vignes</p>
+        <p>© 2025 Sapori Di Italia. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+
+content.html
+<html>
+    <head>
+        <style>
+            .one{
+                text-align: center;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            .image
+            {
+                text-align: center;
+            }
+    </style>
+    </head>
+    <body>
+        <div class="image">
+    
+            <img src="logo.png" alt="Logo">
+        
+        </div>
+        <div class="one">
+        <h1 >Contact Us</h1>
+        <h2> Address: ITC Grand Chola, 63, Anna Salai, Guindy, Chennai, Tamil Nadu 600032</h2>
+        <h2> Phone:9876543210</h2>
+        <h2>Email :saporidiitalaia78@gmail.com</h2>
+        </div>
+    </body>
+</html>
+
+admin.css
 
 body{
     margin: 0;
@@ -329,14 +253,14 @@ img{
     width:90%;
 }
 
-admin.css
+menu.html
 
 <html>
     <head>
         <title> Menu</title>
         <style>
             body{
-                background-image: url('background.jpg');
+                background-image: url('Dine Restaurant Food - Free photo on Pixabay.jpg');
                 background-repeat: no-repeat;
                 background-size: cover;
             }
@@ -415,8 +339,81 @@ admin.css
         </body>
 </html>
 
-
-
+rest.css
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color :white;
+            color: rgb(0, 253, 42);
+        }
+        header .logo {
+            display: flex;
+            padding-left: 40%;
+            align-items: center;
+        }
+        header .logo img {
+            height: 50px;
+            margin-right: 10px;
+        }
+        nav a {
+            margin: 0 10px;
+            color: rgb(255, 69, 1);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background: url('back.jpg') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+            position: relative;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+        }
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background-color: #fdf4e3;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            text-align: center;
+            padding: 20px;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .card h2 {
+            margin-top: 15px;
+            font-size: 1.5rem;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #ff0000;
+            color: white;
+        }
 
 
 ## OUTPUT:
